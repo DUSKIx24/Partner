@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === 'Dark') { 
+if (message.content === 'h!wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**Please you go to the voice🐱**'); 
+message.reply('**e de hara voice ki da bhem mero🐱**'); 
 
 } 
 
@@ -57,4 +57,4 @@ client.user.setGame(`Send Me`)
 
 
 
-client.login("");///Dark Heilyam ///Token
+client.login("ODM0NTgyMjY3OTY3ODMyMTE1.YIC_Tg.NOXKcp6yNISo8q8VbuHadbVcsX0");///Dark Heilyam ///Token
